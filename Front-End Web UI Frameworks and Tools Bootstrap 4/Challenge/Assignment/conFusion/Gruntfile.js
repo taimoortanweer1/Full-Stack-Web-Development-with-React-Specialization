@@ -171,17 +171,17 @@ module.exports = function (grunt) {
 
     grunt.registerTask('css', ['sass']);
     grunt.registerTask('default', ['browserSync', 'watch']);
-    grunt.registerTask('build', [
-        'clean',
-        'copy',
-        'imagemin',
-        'useminPrepare',
-        'concat',
-        'cssmin',
-        'uglify',
-        'filerev',
-        'usemin',
-        'htmlmin'
-    ]);
+    // grunt.registerTask('build', [
+    //     'clean',
+    //     'copy',
+    //     'imagemin',
+    //     'useminPrepare',
+    //     'concat',
+    //     'cssmin',
+    //     'uglify',
+    //     'filerev',
+    //     'usemin',
+    //     'htmlmin'
+    // ]);
     
 };
